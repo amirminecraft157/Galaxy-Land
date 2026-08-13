@@ -1,6 +1,6 @@
 function copyIP() {
 
-    const ip = "play.galaxyland.ir";
+    const ip = "127.0.0.1:25567";
 
     navigator.clipboard.writeText(ip);
 
