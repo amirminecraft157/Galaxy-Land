@@ -165,20 +165,34 @@ nav a:hover {
 }
 
 .join-button,
-.discord-button {
-    border: none;
-
+.rubika-button {
+    display: inline-block;
     padding: 15px 35px;
-
     border-radius: 10px;
+
+    color: white;
+    text-decoration: none;
 
     font-size: 16px;
     font-weight: 700;
 
-    cursor: pointer;
-    text-decoration: none;
+    background: linear-gradient(
+        135deg,
+        #8a00ff,
+        #c000ff
+    );
+
+    box-shadow:
+        0 0 20px rgba(150, 0, 255, 0.5);
 
     transition: 0.3s;
+}
+
+.rubika-button:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 0 40px rgba(170, 0, 255, 0.8);
 }
 
 .join-button {
@@ -201,15 +215,37 @@ nav a:hover {
         0 0 40px rgba(170, 0, 255, 0.8);
 }
 
-.discord-button {
+.rubika-button {
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 10px;
+
     color: white;
+    text-decoration: none;
 
-    border: 1px solid #a200ff;
+    font-size: 16px;
+    font-weight: 700;
 
-    background: rgba(130, 0, 255, 0.1);
+    background: linear-gradient(
+        135deg,
+        #8a00ff,
+        #c000ff
+    );
+
+    box-shadow:
+        0 0 20px rgba(150, 0, 255, 0.5);
+
+    transition: 0.3s;
 }
 
-.discord-button:hover {
+.rubika-button:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 0 40px rgba(170, 0, 255, 0.8);
+}
+
+.rubika-button:hover {
     background: #8a00ff;
     transform: translateY(-5px);
 }
